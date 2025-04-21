@@ -34,17 +34,6 @@ RESULT – stores GPA/Grade info per student
 
 
 
-ER Diagram:
-
-STUDENT(Student_ID, Name, Dept, Semester, Email, Phone)
-|
-|<----|
-|     |
-MARKS(Mark_ID, Student_ID, Course_ID, Marks_Obtained)
-      |                |
-      |                |
-      v                v
-COURSE(Course_ID, Course_Name, Credits, Max_Marks)
 
 RESULT(Result_ID, Student_ID, GPA, Grade, Semester)
 
