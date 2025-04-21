@@ -49,3 +49,5 @@ COURSE(Course_ID, Course_Name, Credits, Max_Marks)
 RESULT(Result_ID, Student_ID, GPA, Grade, Semester)
 
 FACULTY(Faculty_ID, Name, Department, Email)
+
+
